@@ -1,0 +1,16 @@
+.App {
+  text-align: left;
+}
+
+/* .App에 포함되어 있는 <header>요소 */
+.App header {
+  background-color: black;
+  color: yellow;
+  text-align: center;
+}
+
+/* .App에 포함되어 있는 <header>요소에 포함되어 있는 <h1>요소 */
+.App header h1 {
+  text-decoration: underline;
+  text-shadow: 4px 1px #9c9c9c;
+}
