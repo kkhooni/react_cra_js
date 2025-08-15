@@ -12,6 +12,7 @@ import LifingState from './lifting state up/liftingstate';
 import RouteMain from './Routing/RoutingTest';
 import CssStyled from './Component_styling/css_class_styling';
 import CssButton from './Component_styling/css_module';
+import FragmentTest from './Fragment/fragment';
 
 
 //여기가 메인. index.html에 있는 'root'에 아래 UI를 렌더한다. 
@@ -27,7 +28,8 @@ root.render(
     {/*<LifingState />*/}
     {/*<RouteMain />*/}
     {/*<CssStyled />*/}
-    <CssButton />
+    {/*<CssButton />*/}
+    <FragmentTest />
   </React.StrictMode>
 );
 
